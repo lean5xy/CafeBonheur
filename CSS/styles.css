@@ -1,0 +1,187 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Zetta:wght@100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: monospace;
+    display: flex;
+    flex-direction: column;
+}
+
+section  {
+    padding: 20px 0px 20px 0px;
+}
+header {
+    width: auto;
+    height: 100px;
+    background-color: #522e0c8f;
+    color: whitesmoke;
+    text-align: center;
+    padding: 0.1em 0em;
+    /* padding: 10px 0px 10px 0px; /* es lo mismo que (sentido agujas del reloj): padding-top: 10px; padding-right: 0px; padding-bottom: 10px; padding-left: 0px; */
+}
+
+h1 {
+    font-family: "Playfair Display";
+    font-size: 70px;
+    font-style: italic;
+    font-weight: 900;
+}
+
+h5 {
+    font-family: "Lexend Zetta";
+    color: #595959;
+}
+
+label {
+    font-family: "Lexend Zetta";
+}
+
+nav {
+    width: auto;
+    height: 75px;
+    background-color: #333;
+    font-size: 25px;
+    font-family: "Lexend Zetta";
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 0.7em 0em;
+
+}
+
+nav ul li {
+    margin: 0 40px;
+}
+
+nav ul li a {
+    color: beige;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+a:hover {
+    color: rgb(167, 116, 69);
+}
+
+footer {
+    background-color: #333;
+    color: whitesmoke;
+    text-align: center;
+}
+
+/* Parámetros para tabla */
+table,
+td,
+th {
+    margin: auto;
+    border: 1px solid #595959;
+    border-collapse: collapse;
+    width: 60%;
+}
+
+td,
+th {
+    padding: 3px;
+    width: fit-content;
+    /* Este argumento hace que las columnas se ajusten al contenido*/
+    height: 25px;
+}
+
+th {
+    background: #f0e6cc;
+}
+
+.even {
+    background: #fbf8f0;
+}
+
+.odd {
+    background: #fefcf9;
+}
+
+/* From Uiverse.io by krlozCJ */
+button {
+    border: none;
+    outline: none;
+    background-color: #927134;
+    padding: 10px 20px;
+    font-size: 12px;
+    font-weight: 700;
+    color: #fff;
+    border-radius: 5px;
+    transition: all ease 0.1s;
+    box-shadow: 0px 5px 0px 0px #ac966e;
+}
+
+button:active {
+    transform: translateY(5px);
+    box-shadow: 0px 0px 0px 0px #a29bfe;
+}
+
+.mainContacto {
+    display: flex;
+    margin: 5px;
+}
+
+.containerFormulario {
+    margin: auto;
+    padding-top: 20px;
+    width: 300px;
+    height: 450px;
+}
+
+.containerMapa {
+    display: flex;
+    padding-top: 20px;
+    width: 700px;
+    height: 450px;
+}
+
+.containerMapa div {
+    margin: 10px;
+}
+
+.infoMapa {
+    padding-top: 20px;
+    font-family: "Lexend Zetta";
+    text-align: left;
+}
+
+form {
+    margin: 0px;
+    width: 400px;
+}
+
+fieldset {
+    padding: 30px;
+}
+
+input,
+textarea,
+button {
+    width: 100%;
+}
+
+.playlist p {
+    padding-top: 20px;
+    text-align: center;
+    font-size: 30px;
+}
+
+.playlist p2 {
+    margin-left: 450px;
+    font-size: 100px;
+}
+
+.radios {
+    padding: 0px 0px 20px 20px;
+}
