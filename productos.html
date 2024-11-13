@@ -9,7 +9,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>CAFE DU BONHEUR</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
     <link rel="stylesheet" href="CSS/styles.css">
 </head>
@@ -17,173 +18,132 @@
 <body>
 
     <header>
-        <h1>Café du Bonheur</h1>
+        <h1>Café Bonheur</h1>
     </header>
 
     <nav>
         <ul>
             <li><a href="/index.html">HOME</a></li>
             <li><a href="#">PRODUCTOS</a></li>
-            <li><a href="/playlist.html">PLAYLIST</a></li>
             <li><a href="/contacto.html">CONTACTO</a></li>
             <li><a href="/carrito.html"><i class="fa-solid fa-cart-shopping"></i></a></li>
         </ul>
     </nav>
 
     <main>
-        <section>
-            <h3>Proyecto Integrador TalentoTech 2024</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus commodi aliquid sint dolore suscipit
-                nam consequuntur earum at, voluptatum debitis nobis provident? Perspiciatis architecto dolore vitae,
-                quibusdam praesentium placeat cupiditate?</p>
+
+        <section class="cards-producto"></section>
+
+            <h3>Productos</h3>
+            <div class="product-container">
+
+                <div class="card">
+                    <img src="/images/croissant.PNG" alt="Croissant">
+                    <h4>CROISSANT</h4>
+                    <h6>$2000</h6>
+                    <p>elaborado con una masa hojaldrada que se dobla varias
+                        veces con mantequilla, creando capas finas y crujientes. Después de su formado en forma
+                        de media luna, se hornea hasta que quede dorado y aireado en el interior. Aunque de
+                        origen austríaco, fue perfeccionado en Francia.</p>
+                    <div class="boton"><button type="button">Comprar</button></div>
+
+                </div>
+
+                <div class="card">
+                    <img src="/images/eclairs.jpg" alt="Éclairs">
+                    <h4>ÉCLAIRS</h4>
+                    <h6>$3000</h6>
+                    <p>Deliciosos dulces largos hechos de masa choux (una masa ligera y aireada). Se rellenan
+                        con crema pastelera o nata montada y se cubren con un glaseado o ganache de chocolate.
+                        La masa choux, que también se usa en profiteroles, se hornea y se hincha por la humedad
+                        en la masa, resultando en una textura ligera y hueca.</p>
+                    <div class="boton"><button type="button">Comprar</button></div>
+                </div>
+
+                <div class="card">
+                    <img src="/images/ispahan.PNG" alt="Ispahan">
+                    <h4>ISPAHAN</h4>
+                    <h6>$3000</h6>
+                    <p>Una creación moderna del maestro pastelero Pierre Hermé. Es un macaron gigante con un
+                        relleno de crema de rosa, lichi y frambuesas frescas, que combina sabores delicados y
+                        florales con la textura suave y crocante del macaron. La inspiración proviene de la rosa
+                        de Damasco, también conocida como "Ispahan".</p>
+                    <div class="boton"><button type="button">Comprar</button></div>
+                </div>
+
+                <div class="card">
+                    <img src="/images/macarons.jpg" alt="Macarons">
+                    <h4>MACARONS</h4>
+                    <h6>$3000</h6>
+                    <p>Hechos con una base de almendra molida,
+                        azúcar glas, claras de huevo y azúcar. Son conocidos por su textura ligera y su exterior
+                        ligeramente crujiente, que contrasta con su interior suave y masticable. Los macarons se
+                        componen de dos conchas de merengue de almendra que se unen mediante un relleno cremoso,
+                        como ganache, crema de mantequilla o mermelada.</p>
+                    <div class="boton"><button type="button">Comprar</button></div>
+                </div>
+
+                <div class="card">
+                    <img src="/images/saint_honore.PNG" alt="Torta Saint Honoré">
+                    <h4>TORTA SAINT HONORÉ</h4>
+                    <h6>$3000</h6>
+                    <p>La torta Saint Honoré se compone de una base de masa quebrada o hojaldre, rodeada de pequeños
+                        profiteroles rellenos de crema pastelera, cubiertos con caramelo para darles un toque
+                        crujiente. La parte central suele estar rellena de crema chiboust (mezcla de crema
+                        pastelera y merengue italiano).</p>
+                    <div class="boton"><button type="button">Comprar</button></div>
+                </div>
+
+                <div class="card">
+                    <img src="/images/paris_breste.PNG" alt="Paris Breste">
+                    <h4>PARIS BRESTE</h4>
+                    <h6>$3000</h6>
+                    <p>El Paris-Brest fue creado en honor a la carrera ciclista entre París y Brest. Tiene forma
+                        de rueda y está hecho de masa choux, relleno de una crema praliné (crema de avellanas y
+                        almendras) y espolvoreado con almendras tostadas. La forma circular simboliza las ruedas
+                        de las bicicletas, y su sabor a praliné es característico.</p>
+                    <div class="boton"><button type="button">Comprar</button></div>
+                </div>
+
+                <div class="card">
+                    <img src="/images/mont_blanc.PNG" alt="Torta Mont-Blanc">
+                    <h4>TORTA MONT-BLANC</h4>
+                    <h6>$5000</h6>
+                    <p>Esta torta se prepara con una base de merengue o
+                        bizcocho, cubierta con puré de castañas dulces, que se extruye en finos hilos para darle
+                        una apariencia nevada, y se acompaña de nata montada. El sabor a castaña es el principal
+                        protagonista de este postre.</p>
+                    <div class="boton"><button type="button">Comprar</button></div>
+                </div>
+
+                <div class="card">
+                    <img src="/images/crepe_suzette.PNG" alt="Crepas Suzette">
+                    <h4>CREPAS SUZETTE</h4>
+                    <h6>$3000</h6>
+                    <p>Finas crêpes francesas bañadas en una salsa de mantequilla, azúcar, jugo de naranja y
+                        licor de naranja (como Grand Marnier o Cointreau). El toque final es flambearlas justo
+                        antes de servirlas, lo que realza los sabores cítricos y añade un toque teatral al
+                        momento de servirlas.</p>
+                    <div class="boton"><button type="button">Comprar</button></div>
+                </div>
+
+            </div>
         </section>
 
-        <section>
-            <table>
-                <tbody>
-                    <tr>
-                        <td>id</td>
-                        <td>Producto</td>
-                        <td>Descripción</td>
-                        <td>Precio</td>
-                    </tr>
-                    <tr>
-                        <td>1</td>
-                        <td><img src="images/croissant.PNG" width="200px"></td>
-                        <td><b>CROISSANT</b>
-                            <p>Un clásico de la bollería francesa, elaborado con una masa hojaldrada que se dobla varias
-                                veces con mantequilla, creando capas finas y crujientes. Después de su formado en forma
-                                de media luna, se hornea hasta que quede dorado y aireado en el interior. Aunque de
-                                origen austríaco, fue perfeccionado en Francia.</p>
-                        </td>
-                        <td>$2000</td>
-                        <td>
-                            <button>
-                                Comprar
-                            </button>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>2</td>
-                        <td><img src="images/eclairs.jpg" width="200px" </td>
-                        <td><b>ÉCLAIRS</b>
-                            <p>Deliciosos dulces largos hechos de masa choux (una masa ligera y aireada). Se rellenan
-                                con crema pastelera o nata montada y se cubren con un glaseado o ganache de chocolate.
-                                La masa choux, que también se usa en profiteroles, se hornea y se hincha por la humedad
-                                en la masa, resultando en una textura ligera y hueca.</p>
-                        </td>
-                        <td>$3000</td>
-                        <td>
-                            <button>
-                                Comprar
-                            </button>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>3</td>
-                        <td><img src="images/ispahan.PNG" width="200px" </td>
-                        <td><b>ISPAHAN</b>
-                            <p>Una creación moderna del maestro pastelero Pierre Hermé. Es un macaron gigante con un
-                                relleno de crema de rosa, lichi y frambuesas frescas, que combina sabores delicados y
-                                florales con la textura suave y crocante del macaron. La inspiración proviene de la rosa
-                                de Damasco, también conocida como "Ispahan".</p>
-                        </td>
-                        <td>$3500</td>
-                        <td>
-                            <button>
-                                Comprar
-                            </button>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>4</td>
-                        <td><img src="images/macarons.jpg" width="200px" </td>
-                        <td><b>MACARONS</b>
-                            <p>Pequeños dulces redondos de origen francés, hechos con una base de almendra molida,
-                                azúcar glas, claras de huevo y azúcar. Son conocidos por su textura ligera y su exterior
-                                ligeramente crujiente, que contrasta con su interior suave y masticable. Los macarons se
-                                componen de dos conchas de merengue de almendra que se unen mediante un relleno cremoso,
-                                como ganache, crema de mantequilla o mermelada.</p>
-                        </td>
-                        <td>$3000</td>
-                        <td>
-                            <button>
-                                Comprar
-                            </button>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>5</td>
-                        <td><img src="images/saint_honore.PNG" width="200px" </td>
-                        <td><b>TORTA SAINT HONORÉ</b>
-                            <p>La torta Saint Honoré es un homenaje al santo patrón de los panaderos y pasteleros, Saint
-                                Honoré. Se compone de una base de masa quebrada o hojaldre, rodeada de pequeños
-                                profiteroles rellenos de crema pastelera, cubiertos con caramelo para darles un toque
-                                crujiente. La parte central suele estar rellena de crema chiboust (mezcla de crema
-                                pastelera y merengue italiano).</p>
-                        </td>
-                        <td>$4500</td>
-                        <td>
-                            <button>
-                                Comprar
-                            </button>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>6</td>
-                        <td><img src="images/paris_breste.PNG" width="200px" </td>
-                        <td><b>PARIS BRESTE</b>
-                            <p>El Paris-Brest fue creado en honor a la carrera ciclista entre París y Brest. Tiene forma
-                                de rueda y está hecho de masa choux, relleno de una crema praliné (crema de avellanas y
-                                almendras) y espolvoreado con almendras tostadas. La forma circular simboliza las ruedas
-                                de las bicicletas, y su sabor a praliné es característico.</p>
-                        </td>
-                        <td>$4000</td>
-                        <td>
-                            <button>
-                                Comprar
-                            </button>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>7</td>
-                        <td><img src="images/mont_blanc.PNG" width="200px" </td>
-                        <td><b>TORTA MONT-BLANC</b>
-                            <p>Inspirada en la montaña más alta de los Alpes. Se prepara con una base de merengue o
-                                bizcocho, cubierta con puré de castañas dulces, que se extruye en finos hilos para darle
-                                una apariencia nevada, y se acompaña de nata montada. El sabor a castaña es el principal
-                                protagonista de este postre.</p>
-                        </td>
-                        <td>$4500</td>
-                        <td>
-                            <button>
-                                Comprar
-                            </button>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>8</td>
-                        <td><img src="images/crepe_suzette.PNG" width="200px" </td>
-                        <td><b>CREPAS SUZETTE</b>
-                            <p>Finas crêpes francesas bañadas en una salsa de mantequilla, azúcar, jugo de naranja y
-                                licor de naranja (como Grand Marnier o Cointreau). El toque final es flambearlas justo
-                                antes de servirlas, lo que realza los sabores cítricos y añade un toque teatral al
-                                momento de servirlas.</p>
-                        </td>
-                        <td>$3500</td>
-                        <td>
-                            <button>
-                                Comprar
-                            </button>
-                        </td>
-                    </tr>
-                </tbody>
-            </table>
-        </section>
     </main>
 
     <footer>
-        <p>Leandro Meunier - 24225</p>
+
+        <div class="footer-sns">
+            <p>Enterate de nuestras novedades en nuestras redes sociales</p>
+            <ul class="links-sns">
+                <li><h3><a href="#"><i class="bi-instagram"></i></h3><p>@CafeBonheur</p></a></li>
+                <li><h3><a href="#"><i class="bi-facebook"></i></i></h3><p>Café Bonheur</p></a></li>
+                <li><h3><a href="#"><i class="bi-linkedin"></i></h3><p>Café Bonheur</p></a></li>
+            </ul>
+        </div>
+    
+        <p>Leandro Meunier - Telento Tech 2004 Comisión #24225</p>
     </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
