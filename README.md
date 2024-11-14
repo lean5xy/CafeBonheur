@@ -14,5 +14,5 @@ Tecnologías utilizadas:
 
 Instalación:
 Sigue estos pasos para configurar el proyecto localmente
-- Clona este repositorio escribiendo lo siguiente en el CMD
+- Clona este repositorio escribiendo lo siguiente en el CMD:
   git clone https://github.com/lean5xy/CafeBonheur
