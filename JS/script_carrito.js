@@ -54,7 +54,7 @@ document.addEventListener('DOMContentLoaded', () => {
     localStorage.removeItem('cart');
     setTimeout(() => {
         window.location.href='index.html';
-    }, 1000); // el 4000 es para redirigir a Home despues de 1"
+    }, 2200); // el 2000 es para redirigir a Home despues de 2"
 });
 
     //BOTON FINALIZAR COMPRA
