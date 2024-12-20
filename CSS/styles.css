@@ -160,7 +160,7 @@ a:hover {
 
 
 /* PÁGINA DE PRODUCTOS */
-.product-container {
+/*.product-container {
     display: flex;
     flex-wrap: wrap;
     margin: 0;
@@ -174,7 +174,7 @@ a:hover {
     margin: 0px 10px 10px 0px;
     padding: 15px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Efecto sobre las cards */
-    transition: box-shadow 0.3s;
+    /*transition: box-shadow 0.3s;
 
 }
 
@@ -196,7 +196,7 @@ a:hover {
 }
 
 /* BOTÓN 'COMPRAR' */
-.boton {
+/*.boton {
     position: absolute bottom 500px;
 }
 
@@ -219,7 +219,7 @@ button:active {
 }
 
 /* BREAKPOINTS RESPONSIVOS */
-@media (min-width: 576px) {
+/*@media (min-width: 576px) {
     .card {
         width: calc(50% - 30px);
     }
@@ -292,4 +292,13 @@ button {
 .construccion {
     text-align: center; 
     margin: 20px 0px;
+}
+
+#limpiar-carrito, #finalizar-compra {
+    width: auto;
+    margin: 0 0 20px 100px;
+}
+
+#total {
+    margin-right: 100px;
 }
